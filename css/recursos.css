@@ -10,20 +10,21 @@
 .menu-recursos ul li a:hover, .menu-recursos ul li a:focus, .menu-recursos ul li a.active { text-decoration:none;background-color:#5f6d3e;color:#fff; }
 
 /* recursos */
+.descarga-logos img { width:100%; }
+
 .manual_firma img { width:100%;border:3px solid #dadada;padding:10px; }
 .manual_firma p { font-size:16px;line-height:19px;margin-top:10px; }
-.descargas ul { margin:0;padding:0; }
-.descargas ul li { margin:0;padding:0;list-style:none;width:100%;display:inline-block; }
-.descargas a.item { display: inline-block;width:100%;float:left;border:3px solid #dadada;padding:10px; }
-.descargas a:hover.item { display: inline-block;width:100%;border:3px solid #333; }
 
-.descargas a.item-black { background:#000;display: inline-block;width:100%;float:left;border:3px solid #dadada;padding:10px; }
-.descargas a:hover.item-black { background:#000;display: inline-block;width:100%;border:3px solid #333; }
-.descargas h5 { margin:0px 0 20px 0; }
-
+.descargas .versiones img { width:140%;margin-left:-20%; }
+.descargas .versiones a.uc-btn img { width:12px;margin-left:0%; }
 .descargas a.item-ppt { display: inline-block;width:75px;float:left;border:3px solid #dadada;border-radius:50%;padding:5px;margin-right:5px;filter: grayscale(1); }
 .descargas a:hover.item-ppt { display: inline-block;width:75px%;border:3px solid #333;filter: grayscale(0);transition-property: filter;transition-duration: 0.3s;  }
 .img_plantillas img { width:100%;border:1px solid #cacaca;border-radius:10px; }
+
+.descargas ul { margin:0;padding:0; }
+.descargas ul li { margin:0;padding:0;list-style:none;width:100%;display:inline-block; }
+.descargas a.item { display:block;width:100%;float:left;border:3px solid #dadada;padding:10px; }
+.descargas a:hover.item { display: inline-block;width:100%;border:3px solid #333; }
 
 .icon { width:12%;margin-left:0.25%;float:left;margin-bottom:20px; }
 .icon a.item { display: inline-block;width:100%;float:left;border:3px solid #dadada;padding:10px; }
