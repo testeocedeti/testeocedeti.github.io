@@ -23,6 +23,16 @@ a.uc-btn, button.uc-btn { display: inline-block;padding:10px 17px 8px 17px;borde
 a:hover.uc-btn, a:focus.uc-btn, button:hover.uc-btn, button:focus.uc-btn { text-decoration:none; }
 a.uc-btn i, button.uc-btn i { font-size: 18px;color:#000; }
 
+/* noticias ahora */
+.noticias_ahora { height:50px;background-image: url(../img/filete_foot.jpg);background-size:100%;background-position: top; }
+.noticias_ahora.uc-carousel .uc-primary-carousel .primary-carousel_item .primary-carousel_item-content { width: 100%;height:40px;position: relative;bottom:0;background: #000;margin: 5px 0%;border-radius: 5px;padding: 10px 160px 10px 20px; }
+.noticias_ahora p { color:#fff;font-size:14px;margin:0;padding:0; }
+.noticias_ahora.uc-carousel .uc-carousel-nav.primary-carousel-nav { bottom:14px;margin-right:20px; }
+.noticias_ahora.uc-carousel .uc-carousel-nav .carousel-nav-item:not(:first-child),
+.noticias_ahora.uc-carousel .uc-carousel-nav .autoplay-buttons { margin-left:4px; }
+.noticias_ahora.uc-carousel .uc-carousel-nav .carousel-nav-item { font-size:14px; }
+.noticias_ahora.uc-carousel .uc-carousel-nav .carousel-nav-container { margin-right:15px; }
+
 /* menu */
 .uc-navbar { padding-bottom:0;margin-bottom:-2px;padding:0;background-color: #fff;position: relative; }
 .uc-navbar .uc-navbar_nav { margin-top: 0; }
