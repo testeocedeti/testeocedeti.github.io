@@ -1,3 +1,139 @@
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1199px) {
+	.uc-navbar .col-lg-3 img { margin-top:15px; }
 
+	/* llegaste recién */
+	.quienesquien .col-lg-4 { margin-top:25px; }
+	.quienesquien.equipo .col-lg-4 .card { width:89%;float:right; }
+	.quienesquien img { display:none; }
+	.quienesquien.equipo img { display:block;width:70px;position:absolute;top:-3px;left:-10px; }
+	.quienesquien .txt { width: 100%; }
+	.organigrama img { width:100%;margin-left:0%; }
+
+	/* Boletín */
+	.boletin-portada .img { width:40%; }
+	.boletin-portada .txt { width:60%; }
+	.menu-boletin .img img { width:270px; }
+	.menu-boletin h3 small { font-size:17px; }
+	.menu-boletin ul li { width:124%; }
+
+	/* Recursos */
+    .versiones .col-lg-10 { flex: 0 0 78.3%;max-width: 78.3%; }
+    .versiones .col-lg-2 { flex: 0 0 21.6%;max-width: 21.6%; }
+    .descarga-plantillas .col-lg-8 { flex:0 0 100%;max-width:100%; }
+    .descarga-plantillas .col-lg-4 { flex:0 0 100%;max-width:100%;margin-top:20px; }
+    .descarga-plantillas .col-lg-4 .mb-20 { margin-bottom:10px; }
+}
+
+@media screen and (max-width: 991px) {
+	.uc-heading-decoration { display:block;margin-top:10px;margin-bottom:15px; }
+	.noticias_ahora.uc-carousel { width:100%;padding:0 1%; }
+	.noticias_ahora.uc-carousel,
+	.noticias_ahora.uc-carousel .uc-primary-carousel,
+	.noticias_ahora.uc-carousel .uc-primary-carousel .primary-carousel_item,
+	.noticias_ahora.uc-carousel .uc-primary-carousel .primary-carousel_item .primary-carousel_item-content { height:auto;min-height:auto; }
+
+	.noticias_ahora.uc-carousel .container { max-width:100%; }
+	.noticias_ahora.uc-carousel .uc-carousel-nav { position:absolute;top:15px;right:-10px; }
+	.noticias_ahora.uc-carousel .uc-carousel-nav .carousel-nav-container { float:right; }
+	.noticias_ahora.uc-carousel .uc-carousel-nav .carousel-nav-list { margin-bottom:0; }
+
+	/* menu */
+	.uc-navbar .container { max-width:100%; }
+	.uc-navbar_mobile { background:#fff;display:inline-block;width:100%; }
+
+	.logo-menu-cel { width:230px;padding:10px; }
+	.uc-navbar .col-lg-3 img { display:none; }
+
+	.uc-navbar_mobile-content[data-open='false'] { display:none; }
+	.uc-navbar_mobile-content[data-open='true'] { position:absolute;height:auto !important;display: inline-block;width:200px;top:72px;overflow: visible;right:0%; }
+	.uc-navbar_mobile-content[data-open='true'] ul { display:inline-block;padding:0;width:100%;box-shadow:0px 0px 5px rgba(0,0,0,0.2); }
+	.uc-navbar_mobile-content[data-open='true'] ul li { width:100%;float:none; }
+	.uc-navbar_mobile-content[data-open='true'] .uc-navbar_nav .nav-item>.uc-btn { padding:18px 0; }
+	.uc-navbar .uc-navbar_nav .nav-item ul { position: absolute;left:-200px;top:0;box-shadow:0px 0px 5px rgba(0,0,0,0.2);border-radius:20px 0 20px 20px; }
+
+	.banner { display:none; }
+	.secciones .card { padding-left:35%; }
+	.secciones .card img { width:31%;margin-left:-32%;margin-bottom: 10px;position:absolute; }
+
+	/* llegaste recién */
+	.quienesquien .col-lg-4 .card { width:100%;float:left;margin:10px 0; }
+	.quienesquien .item { width:50%;float:left; }
+	.quienesquien.equipo .col-lg-4 .card { width:100%;float:right; }
+	.quienesquien.equipo img { width:17%;position:relative;top:0;left:0px; }
+	.quienesquien.equipo .txt { width:81%; }
+
+	.signos { margin-top:30px; }
+	.signos img { width:13%;float:left; }
+	.signos .txt { width:85%;float:right;text-align:left; }
+
+	.organigrama .uc-tab-body { width:100%;border-radius:0 0 20px 20px }
+	.uc-card.card-bg--gray.card-radius--none.mb-32 { margin-bottom:0; }
+
+	/* Boletín */
+	.boletin-portada { display:inline-block !important; }
+	.boletin-portada .img { width:106.2%;min-height:300px;margin-left: -3.1%;margin-bottom:0px;margin-top:-20px;border-radius:20px 20px 0 0; }
+	.boletin-portada .img img { width:400px;bottom:30px;left:3%; }
+	.boletin-portada .txt { width:100%;float:right;padding-right:0px;margin-left:0px; }
+	
+	.menu-boletin ul li { width:106%; }
+	.cont-boletin .mt-80 { margin-top:20px; }
+
+	/* Recursos */
+	.descarga-logos img { width:50%;margin-top:20px;margin-bottom:20px; }
+    .versiones .col-lg-10 { flex: 0 0 85.5%;max-width: 85.5%; }
+    .versiones .col-lg-2 { flex: 0 0 14.4%;max-width: 14.4%; }
+    .descarga-plantillas .col-lg-6 { flex:0 0 70%;max-width:70%;margin-top:20px; }
+    .descarga-plantillas .col-lg-6 .mb-20 { margin-bottom:10px; }
+}
+
+@media screen and (max-width: 767px) {
+	.secciones .card { padding-left:20px; }
+	.secciones .card img { width:220px;margin-left:auto;margin-right:auto;position:relative;display:block; }
+
+	/* llegaste recién */
+	.organigrama img { width:120%;margin-left:-10%; }
+
+	/* Boletín */
+	.boletin-portada .img { width:108.6%;margin-left: -4.3%; }
+	.boletin-portada .img img { width:360px; }
+	.menu-boletin ul li { width:108.5%; }
+	.boletin-item { display:inline-block !important; }
+	.boletin-item .img { width:100%;min-height:220px;border-radius:20px 20px 0 0 }
+	.boletin-item .img img { float:left;margin-top:100px;margin-left:-20px;margin-right:auto; }
+	.boletin-item .txt { width:100%; }
+
+	/* Recursos */
+	.descarga-logos img { width:300px; }
+    .versiones .col-lg-10 { flex: 0 0 100%;max-width: 100%; }
+    .versiones .col-lg-2 img { width:80px;margin-top:15px;margin-bottom:15px; }
+}
+
+@media screen and (max-width: 575px) {
+	/* Boletín */
+	.boletin-portada h2 small { font-size:37%; }
+	.boletin-portada .img { background-size:130%;width:110%;margin-left:-5%; }
+	.boletin-portada .img img { width:320px; }
+	img.logo-cedetianos { width:360px; }
+	.boletin-item .img img { margin-left:10px; }
+
+	/* Recursos */
+    .descarga-plantillas .col-lg-6 { flex:0 0 100%;max-width:100%; }
+}
+
+@media screen and (max-width: 400px) {
+	.container { padding-left:10px;padding-right:10px; }
+	.noticias_ahora.uc-carousel .uc-primary-carousel .primary-carousel_item .primary-carousel_item-content { padding-left:10px;padding-right:10px; }
+	.noticias_ahora.uc-carousel .uc-carousel-nav { display:none; }
+
+	.uc-navbar_mobile-content[data-open='true'] { width:160px; }
+	.uc-navbar .uc-navbar_nav .nav-item ul { left:-160px; }
+
+	/* Boletín */
+	.boletin-portada h2 small { font-size:33%; }
+	.boletin-portada .img { background-size:170%;min-height:220px;width:116%;margin-left:-8%; }
+	.boletin-portada .img img { display:none; }
+	img.logo-cedetianos { width:280px; }
+
+	/* Recursos */
+	.descarga-logos img { width:100%; }
 }

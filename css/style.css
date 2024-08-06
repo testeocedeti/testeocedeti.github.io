@@ -22,6 +22,7 @@ a img { width:100%; }
 a.uc-btn, button.uc-btn { display: inline-block;padding:10px 17px 8px 17px;border-radius: 25px;font-size: 18px;color:#000;margin-top:10px; }
 a:hover.uc-btn, a:focus.uc-btn, button:hover.uc-btn, button:focus.uc-btn { text-decoration:none; }
 a.uc-btn i, button.uc-btn i { font-size: 18px;color:#000; }
+.uc-navbar_mobile-content { position: relative;display: contents; }
 
 /* noticias ahora */
 .noticias_ahora { height:50px;background-image: url(../img/filete_foot.jpg);background-size:100%;background-position: top; }
@@ -35,6 +36,7 @@ a.uc-btn i, button.uc-btn i { font-size: 18px;color:#000; }
 
 /* menu */
 .uc-navbar { padding-bottom:0;margin-bottom:-2px;padding:0;background-color: #fff;position: relative; }
+.uc-navbar .col-lg-3 img { margin-top:5px; }
 .uc-navbar .uc-navbar_nav { margin-top: 0; }
 .uc-navbar .uc-navbar_nav .nav-item:first-child { border-left: none; }
 .uc-navbar .uc-navbar_nav .nav-item { border-right: none; }
