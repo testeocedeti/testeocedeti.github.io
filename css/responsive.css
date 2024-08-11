@@ -7,7 +7,14 @@
 	.quienesquien img { display:none; }
 	.quienesquien.equipo img { display:block;width:70px;position:absolute;top:-3px;left:-10px; }
 	.quienesquien .txt { width: 100%; }
-	.organigrama img { width:100%;margin-left:0%; }
+	.organigrama img { width:88%;margin-left:6%; }
+
+	.organigrama .uc-vertical-tabs { width:88%;margin-left:6%;top:522px; }
+	.organigrama .uc-vertical-tabs .uc-vertical-tabs_item-link.soporte { width:90px;height:62px;margin-left: 30px;}
+	.organigrama .uc-vertical-tabs .uc-vertical-tabs_item-link.servicios { width:100px;height:62px;margin-left:25px;}
+	.organigrama .uc-vertical-tabs .uc-vertical-tabs_item-link.id { width:160px;height:82px;margin-left:50px;margin-top:-20px;}
+	.organigrama .uc-vertical-tabs .uc-vertical-tabs_item-link.web { width:145px;height:82px;margin-left:25px;margin-top:-20px;}
+	.organigrama .uc-vertical-tabs .uc-vertical-tabs_item-link.ec { width:130px;height:82px;margin-left:15px;margin-top:-20px;}
 
 	/* Boletín */
 	.boletin-portada .img { width:40%; }
@@ -66,7 +73,16 @@
 	.signos img { width:13%;float:left; }
 	.signos .txt { width:85%;float:right;text-align:left; }
 
-	.organigrama .uc-tab-body { width:100%;border-radius:0 0 20px 20px }
+	.organigrama .uc-tab-body { width:100%; }
+	.organigrama img { width:100%;margin-left:0%; }
+
+	.organigrama .uc-vertical-tabs { width:100%;margin-left:0%;top:435px; }
+	.organigrama .uc-vertical-tabs .uc-vertical-tabs_item-link.soporte { width:70px;height:52px;margin-left: 30px;}
+	.organigrama .uc-vertical-tabs .uc-vertical-tabs_item-link.servicios { width:80px;height:52px;margin-left:25px;}
+	.organigrama .uc-vertical-tabs .uc-vertical-tabs_item-link.id { width:130px;height:72px;margin-left:40px;margin-top:-15px;}
+	.organigrama .uc-vertical-tabs .uc-vertical-tabs_item-link.web { width:120px;height:72px;margin-left:25px;margin-top:-15px;}
+	.organigrama .uc-vertical-tabs .uc-vertical-tabs_item-link.ec { width:105px;height:72px;margin-left:15px;margin-top:-15px;}
+
 	.uc-card.card-bg--gray.card-radius--none.mb-32 { margin-bottom:0; }
 
 	/* Boletín */
@@ -91,7 +107,19 @@
 	.secciones .card img { width:220px;margin-left:auto;margin-right:auto;position:relative;display:block; }
 
 	/* llegaste recién */
-	.organigrama img { width:120%;margin-left:-10%; }
+	.organigrama img { width:110%;margin-left:-5%; }
+	.organigrama .uc-vertical-tabs { width:110%;margin-left:-5%;top:350px; }
+
+	.organigrama .uc-vertical-tabs li:nth-child(1).uc-vertical-tabs_item { width:11%;margin-left:4%;border:1px solid #f0f; }
+	.organigrama .uc-vertical-tabs li:nth-child(2).uc-vertical-tabs_item { width:11%;margin-left:3%; }
+	.organigrama .uc-vertical-tabs li:nth-child(3).uc-vertical-tabs_item { width:19%;margin-left:6%; }
+	.organigrama .uc-vertical-tabs li:nth-child(4).uc-vertical-tabs_item { width:17.5%;margin-left: 3%; }
+	.organigrama .uc-vertical-tabs li:nth-child(5).uc-vertical-tabs_item { width:15%;margin-left:2%; }
+	.organigrama .uc-vertical-tabs .uc-vertical-tabs_item-link.soporte { width:100%;height:42px;margin-left:0;}
+	.organigrama .uc-vertical-tabs .uc-vertical-tabs_item-link.servicios { width:100%;height:42px;margin-left:0px;}
+	.organigrama .uc-vertical-tabs .uc-vertical-tabs_item-link.id { width:100%;height:57px;margin-left:0px;margin-top:-15px;}
+	.organigrama .uc-vertical-tabs .uc-vertical-tabs_item-link.web { width:100%;height:57px;margin-left:0px;margin-top:-15px;}
+	.organigrama .uc-vertical-tabs .uc-vertical-tabs_item-link.ec { width:100%;height:57px;margin-left:0px;margin-top:-15px;}
 
 	/* Boletín */
 	.boletin-portada .img { width:108.6%;margin-left: -4.3%; }
@@ -109,6 +137,16 @@
 }
 
 @media screen and (max-width: 575px) {
+	/* Llegaste recien */
+	.organigrama .uc-vertical-tabs li:nth-child(4).uc-vertical-tabs_item { margin-left: 2%; }
+	.organigrama .uc-vertical-tabs li:nth-child(5).uc-vertical-tabs_item { margin-left:1.5%; }
+	.organigrama .uc-vertical-tabs .uc-vertical-tabs_item-link.soporte { width:100%;height:37px;margin-left:0;}
+	.organigrama .uc-vertical-tabs .uc-vertical-tabs_item-link.servicios { width:100%;height:37px;margin-left:0px;}
+	.organigrama .uc-vertical-tabs .uc-vertical-tabs_item-link.id { width:100%;height:52px;margin-left:0px;margin-top:-15px;}
+	.organigrama .uc-vertical-tabs .uc-vertical-tabs_item-link.web { width:100%;height:52px;margin-left:0px;margin-top:-15px;}
+	.organigrama .uc-vertical-tabs .uc-vertical-tabs_item-link.ec { width:100%;height:52px;margin-left:0px;margin-top:-15px;}
+
+
 	/* Boletín */
 	.boletin-portada h2 small { font-size:37%; }
 	.boletin-portada .img { background-size:130%;width:110%;margin-left:-5%; }
@@ -127,6 +165,17 @@
 
 	.uc-navbar_mobile-content[data-open='true'] { width:160px; }
 	.uc-navbar .uc-navbar_nav .nav-item ul { left:-160px; }
+
+	/* Llegaste recien */
+	.organigrama .uc-vertical-tabs li:nth-child(2).uc-vertical-tabs_item { margin-left:2.5%; }
+	.organigrama .uc-vertical-tabs li:nth-child(3).uc-vertical-tabs_item { width:18%; }
+	.organigrama .uc-vertical-tabs li:nth-child(4).uc-vertical-tabs_item { width:17%;margin-left: 3%; }
+	.organigrama .uc-vertical-tabs li:nth-child(5).uc-vertical-tabs_item { margin-left:1.5%; }
+	.organigrama .uc-vertical-tabs .uc-vertical-tabs_item-link.soporte { width:100%;height:30px;margin-top:-5px;}
+	.organigrama .uc-vertical-tabs .uc-vertical-tabs_item-link.servicios { width:100%;height:30px;margin-top:-5px;}
+	.organigrama .uc-vertical-tabs .uc-vertical-tabs_item-link.id { width:100%;height:42px;margin-left:0px;margin-top:-15px;}
+	.organigrama .uc-vertical-tabs .uc-vertical-tabs_item-link.web { width:100%;height:42px;margin-left:0px;margin-top:-15px;}
+	.organigrama .uc-vertical-tabs .uc-vertical-tabs_item-link.ec { width:100%;height:42px;margin-left:0px;margin-top:-15px;}
 
 	/* Boletín */
 	.boletin-portada h2 small { font-size:33%; }

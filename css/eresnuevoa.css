@@ -30,11 +30,18 @@
 .signos ul { margin:0;padding:0;width:100%;display:inline-block;margin-bottom:20px; }
 .signos ul li { list-style:none;margin:0;padding:5px 0;border-top:1px solid #dadada;border-bottom:1px solid #dadada;margin-top:-1px;width:100%; }
 
-.organigrama .uc-vertical-tabs { width:18%;float:left; }
-.organigrama .uc-vertical-tabs .uc-vertical-tabs_item-link { padding:15px; }
-.organigrama .uc-vertical-tabs .tab_categoria { width:100%;background:#cacaca;padding:5px 15px;font-size:16px; }
-.organigrama .uc-tab-body { width:82%;background-color:#fff;float:right;border-radius:0 20px 20px 20px;padding:20px; }
-.organigrama img { width:80%;margin-left:10%; }
+.organigrama { background-color:#fff;border-radius:20px;padding:20px;position:relative; }
+.organigrama img { width:70%;margin-left:15%; }
+.organigrama .uc-vertical-tabs { width:70%;position:absolute;top:550px;display:block;margin-left:15%; }
+.organigrama .uc-vertical-tabs .uc-vertical-tabs_item { float:left;border:none; }
+.organigrama .uc-vertical-tabs .uc-vertical-tabs_item-link { padding:15px;width:100%;float:left;background-color:transparent;border:none; }
+.organigrama .uc-vertical-tabs a:hover.uc-vertical-tabs_item-link { border-bottom:3px solid #4270b2; }
+.organigrama .uc-vertical-tabs .uc-vertical-tabs_item-link.soporte { width:90px;height:62px;margin-left: 30px;}
+.organigrama .uc-vertical-tabs .uc-vertical-tabs_item-link.servicios { width:100px;height:62px;margin-left:30px;}
+.organigrama .uc-vertical-tabs .uc-vertical-tabs_item-link.id { width:170px;height:82px;margin-left:55px;margin-top:-20px;}
+.organigrama .uc-vertical-tabs .uc-vertical-tabs_item-link.web { width:155px;height:82px;margin-left:25px;margin-top:-20px;}
+.organigrama .uc-vertical-tabs .uc-vertical-tabs_item-link.ec { width:135px;height:82px;margin-left:20px;margin-top:-20px;}
+.organigrama .uc-tab-body { width:100%;border-radius:0;padding:0px; }
 
 /* protocolos */
 .tit-protocolos { width:100%;display:inline-block;margin-bottom:20px;background-color:#fff;padding:20px;border-radius:20px; }

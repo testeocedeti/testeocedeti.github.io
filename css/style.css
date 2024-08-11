@@ -18,6 +18,7 @@ li { color:#38342e;font-family: 'Roboto', sans-serif;font-weight:400;font-size: 
 /* botones */
 a 	{	transition:all ease .5s;-webkit-transition:all ease .5s;-moz-transition:all ease .5s;cursor:pointer !important; text-decoration:none;font-family: 'Roboto', sans-serif;	}
 a img { width:100%; }
+a:focus, button:focus { outline:none; }
 
 a.uc-btn, button.uc-btn { display: inline-block;padding:10px 17px 8px 17px;border-radius: 25px;font-size: 18px;color:#000;margin-top:10px; }
 a:hover.uc-btn, a:focus.uc-btn, button:hover.uc-btn, button:focus.uc-btn { text-decoration:none; }
