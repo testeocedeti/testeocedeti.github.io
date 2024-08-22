@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="capa_1" data-name="capa 1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 320 320">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f9bb4e;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 6px;
+      }
+
+      .cls-2 {
+        fill: #e14192;
+      }
+
+      .cls-4 {
+        fill: #1d1d1b;
+        font-size: 65.8px;
+      }
+
+      .cls-4, .cls-5 {
+        font-family: Linotte-Bold, Linotte-Bold;
+        font-weight: 700;
+      }
+
+      .cls-4, .cls-5, .cls-6 {
+        isolation: isolate;
+      }
+
+      .cls-5 {
+        font-size: 43.1px;
+      }
+
+      .cls-5, .cls-3 {
+        fill: #000;
+      }
+    </style>
+  </defs>
+  <g>
+    <g class="cls-6">
+      <text class="cls-4" transform="translate(-3723.9 -661.1)"><tspan x="0" y="0">C</tspan></text>
+      <text class="cls-4" transform="translate(-3683.7 -661.1)"><tspan x="0" y="0">O</tspan></text>
+      <text class="cls-4" transform="translate(-3634.7 -661.1)"><tspan x="0" y="0">P</tspan></text>
+      <text class="cls-4" transform="translate(-3596.4 -661.1)"><tspan x="0" y="0">U</tspan></text>
+      <text class="cls-4" transform="translate(-3550.7 -661.1)"><tspan x="0" y="0">C</tspan></text>
+      <text class="cls-4" transform="translate(-3510.5 -661.1)"><tspan x="0" y="0">H</tspan></text>
+      <text class="cls-4" transform="translate(-3464 -661.1)"><tspan x="0" y="0">A</tspan></text>
+    </g>
+    <g class="cls-6">
+      <text class="cls-5" transform="translate(-3723.9 -715.5)"><tspan x="0" y="0">L</tspan></text>
+      <text class="cls-5" transform="translate(-3701.9 -715.5)"><tspan x="0" y="0">A</tspan></text>
+    </g>
+  </g>
+  <g>
+    <g>
+      <path class="cls-1" d="M40.8,209.4c5.1,5.5,12.3,7.2,20,9.6,1.8.6,3.7,1.1,5.4,1.6,8.6,2.8,24.7,9.9,28.8,23.8,5.6,19.2,32.2,12.6,28.2-3.7-3.8-15.2,11.2-33.9,15.9-40.7s8.8-12.3,11.3-18.1l-109.6,27.5Z"/>
+      <path class="cls-3" d="M150.4,181.9c9.2-21.2,8.7-47.3-5.2-69.7-29.7-48-90.2-36.1-111.9-14.4-25.3,25.3-32.2,84.2,7.5,111.6l109.6-27.5Z"/>
+      <path class="cls-1" d="M103.9,285.5l32.3-8.6s-21.2-60.8-23.8-68.6c-4.4-12.8-25.2-6.4-22.7,6.7l14.2,70.4Z"/>
+    </g>
+    <g>
+      <path class="cls-1" d="M170.1,139.7c.9,1.7,1.8,3.4,2.8,4.9,4.1,8.1,10.5,24.4,3.5,37.2-9.6,17.6,13.8,31.6,22.5,17.3,8.1-13.4,27.8-16.3,40-17.5.8,0,8.5.4,20.8-4.8l-96.9-58s0,9.3,7.3,20.9Z"/>
+      <path class="cls-2" d="M259.7,176.8c21.6-8.5,39.6-27.3,45.6-52.9,13-55-38.3-89.3-68.9-89.3s-82.4,36.8-73.6,84.2l96.9,58Z"/>
+      <path class="cls-1" d="M193.4,157.3c-4.3,6.3-39.8,59.8-39.8,59.8l28.9,16.8s28-58,31.6-65.3c5.9-12.1-13.3-22.3-20.8-11.3Z"/>
+    </g>
+  </g>
+</svg>

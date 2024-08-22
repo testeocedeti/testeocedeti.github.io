@@ -64,7 +64,7 @@
 			</div>
 		</div>
 
-    	<div class="container1" id="home">
+    	<div id="productos">
 	        <header>
     	        <div class="uc-navbar">
         	        <div class="container">
@@ -76,7 +76,7 @@
 	                        	<div data-toggle="collapseMobileNav" data-open="false" class="uc-navbar_mobile-content js-accordion-content">
 	    	                        <ul class="uc-navbar_nav">
 	        	                        <li class="nav-item"><a href="../index.html" class="uc-btn btn-inline menu-inicio">Inicio</a></li>
-	            	                    <li class="nav-item"><a href="#" class="uc-btn btn-inline menu-eresnuevoa">¿Eres nuevo/a?</a>
+	            	                    <li class="nav-item"><a href="#" class="uc-btn btn-inline menu-eresnuevoa">¿Llegaste recién?</a>
 	            	                    	<ul>
 	            	                    		<li><a href="quienesquien.html">¿Quién es quien?</a></li>
 	            	                    		<li><a href="organigrama.html">Organigrama</a></li>
@@ -107,60 +107,234 @@
 	        </header>
 
 	        <div class="container cont-eresnuevoa mt-36 mb-36">
-		        <h2>¿Llegaste recién?</h2>
- 				<span class="uc-heading-decoration"></span>
- 				<div class="menu-eresnuevoa">
- 					<ul>
- 						<li><a href="quienesquien.html">¿Quién es quien?</a></li>
-                		<li><a href="organigrama.html">Organigramas</a></li>
-                		<li><a href="protocolos.html">Protocolos</a></li>
-                		<li><a href="#" class="active">Nuestros productos</a></li>
- 					</ul>
- 				</div>
-				<div class="productos mt-36">
-					<div class="row">
-						<div class="col-lg-6 mb-36">
-				        	<h3>Recursos gratuitos</h3>
-		 					<span class="uc-heading-decoration"></span>
-							<h4>Graphogame</h4>
-							<video controls>
-								<source src="../video/item_graphogame.mp4" type="video/mp4">
-							</video>
-		 				</div>
-		 				<div class="col-lg-6 mb-36">
-				        	<h3>Nuestros teststs</h3>
-		 					<span class="uc-heading-decoration"></span>
-							<h4>Yellow Red</h4>
-							<video controls>
-								<source src="../video/item_graphogame.mp4" type="video/mp4">
-							</video>
-		 				</div>
-		 				<div class="col-lg-12">
-				        	<h3>Nuestros proyectos más nuevos</h3>
-		 					<span class="uc-heading-decoration"></span>
-		 					<div class="row">
-		 						<div class="col-lg-4">
-				 					<a href="https://neuromundos.cedeti.cl/" target="_blank"><img src="../img/productos/producto_1.png"></a>
-									<h4>Neuromundos</h4>
-									<p>Guía ilustrada sobre los trastornos del neurodesarrollo</p>
-									<a href="https://neuromundos.cedeti.cl/" target="_blank">www.neuromundos.cedeti.cl</a>
-								</div>
-		 						<div class="col-lg-4">
-				 					<a href="https://maternidadypaternidadinclusiva.cedeti.cl/" target="_blank"><img src="../img/productos/producto_2.png"></a>
-									<h4>Maternidad y paternidad inclusiva</h4>
-									<p>Plataforma con material accesible sobre maternidad y paternidad</p>
-									<a href="https://maternidadypaternidadinclusiva.cedeti.cl/" target="_blank">www.maternidadypaternidadinclusiva.cedeti.cl</a>
-								</div>
-		 						<div class="col-lg-4">
-				 					<a href="https://diccifacil.cedeti.cl/" target="_blank"><img src="../img/productos/producto_3.png"></a>
-									<h4>Diccifácil</h4>
-									<p>Accesibilidad cognitiva a través de un diccionario chileno en Lectura Fácil</p>
-									<a href="https://diccifacil.cedeti.cl/" target="_blank">www.diccifacil.cedeti.cl</a>
+	        	<div class="contenido llegasterecien-cont">
+	        		<!-- header fijo-->
+			        <h2>¿Llegaste recién?</h2>
+	 				<span class="uc-heading-decoration"></span>
+	 				<div class="menu-eresnuevoa">
+	 					<ul>
+	 						<li><a href="quienesquien.html">¿Quién es quien?</a></li>
+	                		<li><a href="organigrama.html">Organigramas</a></li>
+	                		<li><a href="protocolos.html">Protocolos</a></li>
+	                		<li><a href="#" class="active">Nuestros productos</a></li>
+	 					</ul>
+	 				</div>
+
+	        		<!-- cont -->
+					<div class="productos mt-36">
+
+						<div class="uc-tabpanel" data-tabpanel>
+							<!-- Tabs mobile se muestran como Select -->
+							<div class="uc-card card-bg--gray card-radius--none card-border--none d-block d-lg-none mb-32">
+								<div class="uc-card_body">
+									<label for="tabSelect"><strong>¿Qué quieres ver?</strong></label>
+									<select name="tabSelect" id="tabSelect" class="uc-input-style" data-tabselect>
+										<option value="tab-10">Recursos Gratuitos</option>
+										<option value="tab-11">Nuestros testss para niñas, niños y adolescentes</option>
+										<option value="tab-12">Nuestros testss para adultos</option>
+										<option value="tab-13">Micrositios</option>
+									</select>
 								</div>
 							</div>
-		 				</div>
-		 			</div>
- 				</div>
+							<!-- Tabs en desktop se muestran como botones -->
+							<ul class="uc-vertical-tabs d-none d-lg-flex">
+								<li class="uc-vertical-tabs_item">
+									<a href="javascript:void(0);" class="uc-vertical-tabs_item-link" data-tabtarget="tab-10" data-tabactive>Recursos gratuitos</a>
+								</li>
+								<li class="uc-vertical-tabs_item">
+									<a href="javascript:void(0);" class="uc-vertical-tabs_item-link" data-tabtarget="tab-11">Nuestros testsss para niñas, niños y adolescentes</a>
+								</li>
+								<li class="uc-vertical-tabs_item">
+									<a href="javascript:void(0);" class="uc-vertical-tabs_item-link" data-tabtarget="tab-12">Nuestros testsss para adultos</a>
+								</li>
+								<li class="uc-vertical-tabs_item">
+									<a href="javascript:void(0);" class="uc-vertical-tabs_item-link" data-tabtarget="tab-13">Micrositios</a>
+								</li>
+							</ul>
+							<div class="uc-tab-body">
+								<!-- recursos gratuitos -->
+								<div data-tab="tab-10">
+						        	<h3>Recursos gratuitos</h3>
+				 					<span class="uc-heading-decoration"></span>
+									<p>Nuestro foco principal es la accesibilidad en todo sentido, incluyendo el social, es por eso que como centro nos enfocamos en desarrollar (de vez en cuando) algún producto gratuito para nuestra comunidad.</p>
+									<p>A continuación te mostramos y explicamos nuestro catálogo.</p>
+									<div class="lista-item">
+										<div class="item">
+											<video controls>
+												<source src="../video/item_graphogame.mp4" type="video/mp4">
+											</video>
+											<div class="txt">
+												<h4>Graphogame</h4>
+												<p>App para aprender a leer</p>
+											</div>
+										</div>
+										<div class="item">
+											<video controls>
+												<source src="../video/item_graphogame.mp4" type="video/mp4">
+											</video>
+											<div class="txt">
+												<h4>Rakin</h4>
+												<p>App para aprender a sumar</p>
+											</div>
+										</div>
+										<div class="item">
+											<video controls>
+												<source src="../video/item_graphogame.mp4" type="video/mp4">
+											</video>
+											<div class="txt">
+												<h4>Mapuzugun Mew</h4>
+												<p>App para aprender Mapuzugun</p>
+											</div>
+										</div>
+										<div class="item">
+											<video controls>
+												<source src="../video/item_graphogame.mp4" type="video/mp4">
+											</video>
+											<div class="txt">
+												<h4>La Mesita</h4>
+												<p>App para que niñes con síndrome de down aprendan a sumar</p>
+											</div>
+										</div>
+										<div class="item">
+											<video controls>
+												<source src="../video/item_graphogame.mp4" type="video/mp4">
+											</video>
+											<div class="txt">
+												<h4>Sueñaletras</h4>
+												<p>App para que niñes con sueño aprendar a leer</p>
+											</div>
+										</div>
+										<div class="item">
+											<video controls>
+												<source src="../video/item_graphogame.mp4" type="video/mp4">
+											</video>
+											<div class="txt">
+												<h4>Cantaletras</h4>
+												<p>App para que pequeños músicos aprendan a leer</p>
+											</div>
+										</div>
+									</div>
+				 				</div>
+
+								<!-- tesitos para niñes -->
+								<div data-tab="tab-11">
+						        	<h3>Nuestros teststs para niñas, niños y adolescentes</h3>
+				 					<span class="uc-heading-decoration"></span>
+						        	<p>Algo que debes saber es que, por razones que me explicaron pero que no puse atención, los test los desarrollamos en CEDETi, pero los vendemos a través de una empresa amiga llamada <a href="www.tiresias.cl" target="_blank">Tiresias</a>.
+						        	<p>A continuación te mostramos y explicamos nuestro catálogo</p>
+						        	<div class="lista-item">
+										<div class="item">
+											<video controls>
+												<source src="../video/item_graphogame.mp4" type="video/mp4">
+											</video>
+											<div class="txt">
+												<h4>Marko-D</h4>
+												<p>Test para evaluar el nivel de glucosa</p>
+											</div>
+										</div>
+										<div class="item">
+											<video controls>
+												<source src="../video/item_graphogame.mp4" type="video/mp4">
+											</video>
+											<div class="txt">
+												<h4>Teni</h4>
+												<p>Test para evaluar el nivel de glucosa</p>
+											</div>
+										</div>
+										<div class="item">
+											<video controls>
+												<source src="../video/item_graphogame.mp4" type="video/mp4">
+											</video>
+											<div class="txt">
+												<h4>WISC-V</h4>
+												<p>Test para evaluar el nivel de glucosa</p>
+											</div>
+										</div>
+										<div class="item">
+											<video controls>
+												<source src="../video/item_graphogame.mp4" type="video/mp4">
+											</video>
+											<div class="txt">
+												<h4>Yellow Red</h4>
+												<p>Test para evaluar el nivel de glucosa</p>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<!-- tesitos para adultes -->
+								<div data-tab="tab-12">
+						        	<h3>Nuestros teststs para adultos</h3>
+				 					<span class="uc-heading-decoration"></span>
+						        	<p>Algo que debes saber es que, por razones que me explicaron pero que no puse atención, los test los desarrollamos en CEDETi, pero los vendemos a través de una empresa amiga llamada <a href="www.tiresias.cl" target="_blank">Tiresias</a>.
+						        	<p>A continuación te mostramos y explicamos nuestro catálogo</p>
+						        	<div class="lista-item">
+										<div class="item">
+											<video controls>
+												<source src="../video/item_graphogame.mp4" type="video/mp4">
+											</video>
+											<div class="txt">
+												<h4>WAIS-IV</h4>
+												<p>Test para evaluar el nivel de glucosa</p>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<!-- MICROSITIOS -->
+								<div data-tab="tab-13">
+						        	<h3>Nuestros proyectos que son tan bacanes que tienen sitio web propio</h3>
+				 					<span class="uc-heading-decoration"></span>
+						        	<p>¿Qué más te puedo decir? Le ponemos cariño a la pega. A veces no se nota, y pareciera que esta pega es inútil porque no genera ganancias, pero, ¿qué ganancia más valiosa que la satisfacción de saber que te gusta lo que haces?</p>
+						        	<p>A continuación te mostramos y explicamos nuestro catálogo</p>
+						        	<div class="lista-item">
+										<div class="item">
+						 					<a href="https://neuromundos.cedeti.cl/" target="_blank" class="micrositio" style="background-image: url(../img/productos/producto_1.png);">
+												<div class="hover">Visita este micrositio</div>						 						
+						 					</a>
+						 					<div class="txt">
+												<h4>Neuromundos</h4>
+												<p>Guía ilustrada sobre los trastornos del neurodesarrollo</p>
+												<a href="https://neuromundos.cedeti.cl/" target="_blank">www.neuromundos.cedeti.cl</a>
+											</div>
+										</div>
+				 						<div class="item">
+						 					<a href="https://maternidadypaternidadinclusiva.cedeti.cl/" target="_blank" class="micrositio" style="background-image: url(../img/productos/producto_2.png);">
+												<div class="hover">Visita este micrositio</div>
+						 					</a>
+						 					<div class="txt">
+												<h4>Maternidad y paternidad inclusiva</h4>
+												<p>Plataforma con material accesible sobre maternidad y paternidad</p>
+												<a href="https://maternidadypaternidadinclusiva.cedeti.cl/" target="_blank">www.maternidadypaternidadinclusiva.cedeti.cl</a>
+											</div>
+										</div>
+				 						<div class="item">
+						 					<a href="https://diccifacil.cedeti.cl/" target="_blank" class="micrositio" style="background-image: url(../img/productos/producto_3.png)">
+												<div class="hover">Visita este micrositio</div>
+						 					</a>
+						 					<div class="txt">
+												<h4>Diccifácil</h4>
+												<p>Accesibilidad cognitiva a través de un diccionario chileno en Lectura Fácil</p>
+												<a href="https://diccifacil.cedeti.cl/" target="_blank">www.diccifacil.cedeti.cl</a>
+											</div>
+										</div>
+				 						<div class="item">
+						 					<a href="https://rakin.cedeti.cl/" target="_blank" class="micrositio" style="background-image: url(../img/productos/producto_4.png)">
+												<div class="hover">Visita este micrositio</div>
+						 					</a>
+						 					<div class="txt">
+												<h4>Rakin</h4>
+												<p>App para que niñes aprendan a sumar</p>
+												<a href="https://rakin.cedeti.cl/" target="_blank">www.rakin.cedeti.cl</a>
+											</div>
+										</div>
+									</div>
+								</div>
+				 			</div>
+
+			 			</div>
+	 				</div>
+	 			</div>
 	        </div>
 
 	        <div class="footer foot-home mt-24">

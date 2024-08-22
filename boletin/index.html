@@ -64,7 +64,7 @@
 			</div>
 		</div>
 
-    	<div class="container1" id="boletin">
+    	<div id="boletin">
 	        <header>
     	        <div class="uc-navbar">
         	        <div class="container">
@@ -87,9 +87,9 @@
 		                                <li class="nav-item"><a href="#" class="uc-btn btn-inline menu-comunidad">Boletín</a></li>
 		                                <li class="nav-item"><a href="#" class="uc-btn btn-inline menu-recursos">Recursos</a>
 	    	                                <ul>
-	            	                            <li><a href="recursos/logos.html">Logos oficiales</a></li>
-	        	                                <li><a href="recursos/plantillas.html">Plantillas (ppt y word)</a></li>
-	    	                                    <li><a href="recursos/iconos.html">Iconos</a></li>
+	            	                            <li><a href="../recursos/logos.html">Logos oficiales</a></li>
+	        	                                <li><a href="../recursos/plantillas.html">Plantillas (ppt y word)</a></li>
+	    	                                    <li><a href="../recursos/iconos.html">Iconos</a></li>
 	                    	                </ul>
 	                        	        </li>
 		                            </ul>
@@ -106,59 +106,73 @@
                 </div>
 	        </header>
 
-	        <div class="container cont-boletin mt-36 mb-36">
-	        	<img src="../img/boletin/logo_cedetianos.png" class="logo-cedetianos">
+	        <div class="container mt-36 mb-36">
+	        	<div class="contenido boletin-cont">
 
-	        	<!-- Versión Konti -->
-				<div class="card boletin-portada">
-					<div class="img" style="background-image: url(../img/boletin/version2.jpg);">
-						<img src="../img/boletin/version2_autor.png"/>
+	        		<!-- header fijo-->
+		        	<div class="boletin-head">
+	        			<div class="logo-cedetianos"><a href="#"><img src="../img/boletin/logo_cedetianos.png"></a></div>
+			        	<div class="logo-cedetitv">
+			        		<p>Tambien puedes visitar:</p>
+			        		<a href="cedetitv/index.html"><img src="../img/boletin/icon_cedetitv.svg"></a>
+			        	</div>
+			        </div>
+
+	        		<!-- cont -->
+	        		<div class="boletin-lista mt-24">
+	        			<div class="row">
+				        	<!-- Versión Paula -->
+			        		<div class="col-lg-6 boletin-portada">
+								<div class="card">
+									<div class="img" style="background-image: url(../img/boletin/version2.jpg);"></div>
+									<div class="txt">
+					 					<h2>
+					 						<small>Segunda edición • Agosto 2024</small><br>
+					 						Paula Cut
+					 					</h2>
+										<span class="uc-heading-decoration"></span>
+										<p>Por la Paula Olivares, estudiante en práctica de periodismo entre marzo y julio de 2024</p>
+										<a href="v_paula/editorial.html" class="uc-btn">Mira esta edición</a>
+									</div>
+								</div>
+							</div>
+
+				        	<!-- Versión Konti -->
+							<div class="col-lg-6 boletin-portada">
+								<div class="card">
+									<div class="img" style="background-image: url(../img/boletin/version1.jpg);"></div>
+									<div class="txt">
+					 					<h2>
+					 						<small>Primera edición • Febrero 2024</small><br>
+					 						Konti Cut
+					 					</h2>
+										<span class="uc-heading-decoration"></span>
+										<p>Por la Konti, estudiante en práctica entre septiembre de 2023 y febrero de 2024</p>
+										<a href="v_konti/editorial.html" class="uc-btn">Mira esta edición</a>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
-					<div class="txt">
-	 					<h2><small>Segunda edición • Agosto 2024</small><br>
- 						Paula Cut</h2>
-						<span class="uc-heading-decoration mb-24"></span>
-						<p><small><i>Por la Paula Olivares</i></small><br>
-				        Estimados cedetianos y cedetianas</p>
-						<p>El primer semestre estuvo lleno de proyectos cumplidos con éxito. Esto no habría sido posible sin el arduo trabajo de cada una de las personas  que conforman nuestro querido centro.</p>
-						<p>Los sentimientos son variados en el ambiente: alegría, cansancio, orgullo, entre otros parte del espectro de emociones. Pero hay uno que predomina, y es la satisfacción del trabajo que da resultados.</p>
-						<p>Esta edición del boletín busca que, dentro del espacio de trabajo, podamos encontrar nuestras similitudes y diferencias, conocernos mejor, a través de todo aquello que valoramos en nuestras vidas y que nos permite desempeñarnos como lo hacemos cada día, complementándonos y aportándonos felicidad y calma al equipo.</p>
-						<p>Debido a eso, en este boletín les traemos cinco secciones, por medio de las cuales podrán conocer más a las y los integrantes de este equipo, copado por el buen gusto, el amor y el disfrute.</p>
-						<ul>
-							<li><a href="v_paula/amigxspeludxs.html" class="uc-btn">Amigos y amigas peludas</a></li>
-							<li><a href="v_paula/luzcamara.html" class="uc-btn">Luz, cámara, ¡CEDETi!</a></li>
-							<li><a href="v_paula/quieneres.html" class="uc-btn">¿Quién eres tú?</a></li>
-							<li><a href="v_paula/fotis.html" class="uc-btn">Fotiwis paseo del ombligo 2024</a></li>
-							<li><a href="v_paula/parentodo.html" class="uc-btn">¡Paren todo! La pausa mental en CEDETi</a></li>
+
+					<nav class="uc-pagination">
+						<button class="uc-pagination_prev mr-12">
+							<i class="uc-icon">keyboard_arrow_left</i>
+						</button>
+						<ul class="uc-pagination_pages">
+							<li class="page-item active"><a href="#" class="page-link">1</a></li>
+							<li class="page-item"><a href="#" class="page-link">2</a></li>
+							<li class="page-item"><a href="#" class="page-link">...</a></li>
+							<li class="page-item"><a href="#" class="page-link">30</a></li>
+							<li class="page-item"><a href="#" class="page-link">133</a></li>
+							<li class="page-item"><a href="#" class="page-link">153</a></li>
 						</ul>
-						<hr>
-						<p><small>Los contenidos de esta edición fueron escritos por Paula Olivares, ex periodista en práctica entre marzo y julio de 2024, así que el resto de la Unidad Funcional de Comunicaciones nos lavamos las manos ante cualquier reclamo, jejeje.</small></p>
-					</div>
+						<button class="uc-pagination_next ml-12">
+							<i class="uc-icon">keyboard_arrow_right</i>
+						</button>
+					</nav>
 				</div>
 
-	        	<!-- Versión Konti -->
-				<div class="card boletin-portada">
-					<div class="img" style="background-image: url(../img/boletin/version1.jpg);">
-						<img src="../img/boletin/version1_autor.png"/>
-					</div>
-					<div class="txt">
-	 					<h2><small>Primera edición • Febrero 2024</small><br>
- 						Konti Cut</h2>
-						<span class="uc-heading-decoration mb-24"></span>
-						<p><small><i>Por la Konti</i></small><br>
-				        ¡Buen día cedetianos! Les presentamos una nueva edición del boletín interno, creado para dinamizar el ánimo y la chispeza que cada uno tiene dentro, queremos dar las gracias a todas, todos y todes por su belleza incalculable, sin duda, el mayor capital de nuestra fuerza.</p>
-						<p>Lamentablemente, algunos personajes míticos ya nos dejaron, como ya se dieron cuenta, la queridísima Konti,  no pudo ser reincorporada debido a que su radiante alegría que los desconcentraba a todos cuando iba a CEDETi, lo cual estaba generando pérdidas millonarias. Por su puesto, se lo informamos y se lo tomó con modestia  y mucha humildad, una chica sencilla, lo comprendió perfectamente. Lamentablemente no todos tuvieron la dicha de conocerla, dice que se desea un buen camino a sí misma, y que sabe bien que es mejor olvidarla.</p>
-						<p>Pero antes de irse nos dejó algunas cosillas para que se conozcan mejor entre ustedes y puedan llegar a conversaciones más profundas e íntimas (1313) para que puedan comentar y agregar lo que consideren que falte a continuación.</p>
-						<ul>
-							<li><a href="v_konti/recetario.html" class="uc-btn">Recetario Gourmet</a></li>
-							<li><a href="v_konti/lahoradefama.html" class="uc-btn">La hora hora de fama (S01/E01)</a></li>
-							<li><a href="v_konti/enganchaalguntema.html" class="uc-btn">¡Engancha algún tema!</a></li>
-							<li><a href="v_konti/fotis.html" class="uc-btn">Fotiwis paseo verano 2024</a></li>
-						</ul>
-						<hr>
-						<p><small>Los contenidos de esta edición fueron escritos por Constanza Pacheco, ex periodista en práctica entre septiembre de 2023 y febrero de 2024, así que el resto de la Unidad Funcional de Comunicaciones nos lavamos las manos ante cualquier reclamo, jejeje.</small></p>
-					</div>
-				</div>
 			</div>
 
 

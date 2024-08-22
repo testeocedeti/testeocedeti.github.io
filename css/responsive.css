@@ -2,13 +2,7 @@
 	.uc-navbar .col-lg-3 img { margin-top:15px; }
 
 	/* llegaste recién */
-	.quienesquien .col-lg-4 { margin-top:25px; }
-	.quienesquien.equipo .col-lg-4 .card { width:89%;float:right; }
-	.quienesquien img { display:none; }
-	.quienesquien.equipo img { display:block;width:70px;position:absolute;top:-3px;left:-10px; }
-	.quienesquien .txt { width: 100%; }
 	.organigrama img { width:88%;margin-left:6%; }
-
 	.organigrama .uc-vertical-tabs { width:88%;margin-left:6%;top:522px; }
 	.organigrama .uc-vertical-tabs .uc-vertical-tabs_item-link.soporte { width:90px;height:62px;margin-left: 30px;}
 	.organigrama .uc-vertical-tabs .uc-vertical-tabs_item-link.servicios { width:100px;height:62px;margin-left:25px;}
@@ -17,8 +11,8 @@
 	.organigrama .uc-vertical-tabs .uc-vertical-tabs_item-link.ec { width:130px;height:82px;margin-left:15px;margin-top:-20px;}
 
 	/* Boletín */
-	.boletin-portada .img { width:40%; }
-	.boletin-portada .txt { width:60%; }
+	.boletin-editorial .img { width:40%; }
+	.boletin-editorial .txt { width:60%; }
 	.menu-boletin .img img { width:270px; }
 	.menu-boletin h3 small { font-size:17px; }
 	.menu-boletin ul li { width:124%; }
@@ -63,12 +57,6 @@
 	.secciones .card img { width:31%;margin-left:-32%;margin-bottom: 10px;position:absolute; }
 
 	/* llegaste recién */
-	.quienesquien .col-lg-4 .card { width:100%;float:left;margin:10px 0; }
-	.quienesquien .item { width:50%;float:left; }
-	.quienesquien.equipo .col-lg-4 .card { width:100%;float:right; }
-	.quienesquien.equipo img { width:17%;position:relative;top:0;left:0px; }
-	.quienesquien.equipo .txt { width:81%; }
-
 	.signos { margin-top:30px; }
 	.signos img { width:13%;float:left; }
 	.signos .txt { width:85%;float:right;text-align:left; }
@@ -86,10 +74,10 @@
 	.uc-card.card-bg--gray.card-radius--none.mb-32 { margin-bottom:0; }
 
 	/* Boletín */
-	.boletin-portada { display:inline-block !important; }
-	.boletin-portada .img { width:106.2%;min-height:300px;margin-left: -3.1%;margin-bottom:0px;margin-top:-20px;border-radius:20px 20px 0 0; }
-	.boletin-portada .img img { width:400px;bottom:30px;left:3%; }
-	.boletin-portada .txt { width:100%;float:right;padding-right:0px;margin-left:0px; }
+	.boletin-editorial { display:inline-block !important; }
+	.boletin-editorial .img { width:106.2%;min-height:300px;margin-left: -3.1%;margin-bottom:0px;margin-top:-20px;border-radius:20px 20px 0 0; }
+	.boletin-editorial .img img { width:400px;bottom:30px;left:3%; }
+	.boletin-editorial .txt { width:100%;float:right;padding-right:0px;margin-left:0px; }
 	
 	.menu-boletin ul li { width:106%; }
 	.cont-boletin .mt-80 { margin-top:20px; }
@@ -122,8 +110,8 @@
 	.organigrama .uc-vertical-tabs .uc-vertical-tabs_item-link.ec { width:100%;height:57px;margin-left:0px;margin-top:-15px;}
 
 	/* Boletín */
-	.boletin-portada .img { width:108.6%;margin-left: -4.3%; }
-	.boletin-portada .img img { width:360px; }
+	.boletin-editorial .img { width:108.6%;margin-left: -4.3%; }
+	.boletin-editorial .img img { width:360px; }
 	.menu-boletin ul li { width:108.5%; }
 	.boletin-item { display:inline-block !important; }
 	.boletin-item .img { width:100%;min-height:220px;border-radius:20px 20px 0 0 }
@@ -148,9 +136,9 @@
 
 
 	/* Boletín */
-	.boletin-portada h2 small { font-size:37%; }
-	.boletin-portada .img { background-size:130%;width:110%;margin-left:-5%; }
-	.boletin-portada .img img { width:320px; }
+	.boletin-editorial h2 small { font-size:37%; }
+	.boletin-editorial .img { background-size:130%;width:110%;margin-left:-5%; }
+	.boletin-editorial .img img { width:320px; }
 	img.logo-cedetianos { width:360px; }
 	.boletin-item .img img { margin-left:10px; }
 
@@ -178,9 +166,9 @@
 	.organigrama .uc-vertical-tabs .uc-vertical-tabs_item-link.ec { width:100%;height:42px;margin-left:0px;margin-top:-15px;}
 
 	/* Boletín */
-	.boletin-portada h2 small { font-size:33%; }
-	.boletin-portada .img { background-size:170%;min-height:220px;width:116%;margin-left:-8%; }
-	.boletin-portada .img img { display:none; }
+	.boletin-editorial h2 small { font-size:33%; }
+	.boletin-editorial .img { background-size:170%;min-height:220px;width:116%;margin-left:-8%; }
+	.boletin-editorial .img img { display:none; }
 	img.logo-cedetianos { width:280px; }
 
 	/* Recursos */

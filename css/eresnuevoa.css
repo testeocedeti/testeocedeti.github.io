@@ -1,7 +1,7 @@
 /* generales */
-.cont-eresnuevoa .uc-heading-decoration { background-color: #b5c5e6; }
-.cont-eresnuevoa a.uc-btn, .cont-eresnuevoa button.uc-btn { background-color:#fff;border:3px solid #b5c5e6; }
-.cont-eresnuevoa a:hover.uc-btn, .cont-eresnuevoa a:focus.uc-btn, .cont-eresnuevoa button:hover.uc-btn, .cont-eresnuevoa button:focus.uc-btn { background-color:#b5c5e6; }
+.llegasterecien-cont .uc-heading-decoration { background-color: #b5c5e6; }
+.llegasterecien-cont a.uc-btn, .llegasterecien-cont button.uc-btn { background-color:#fff;border:3px solid #b5c5e6; }
+.llegasterecien-cont a:hover.uc-btn, .llegasterecien-cont a:focus.uc-btn, .llegasterecien-cont button:hover.uc-btn, .llegasterecien-cont button:focus.uc-btn { background-color:#b5c5e6; }
 
 .menu-eresnuevoa { width:100%;display:inline-block; }
 .menu-eresnuevoa ul { padding:0;margin:0;margin-top:10px; }
@@ -9,25 +9,17 @@
 .menu-eresnuevoa ul li a { background:#b5c5e6;margin-right:1px;padding:9px 12px;display:inline-block;color:#000; }
 .menu-eresnuevoa ul li a:hover, .menu-eresnuevoa ul li a:focus, .menu-eresnuevoa ul li a.active { text-decoration:none;background-color:#5379BC;color:#fff; }
 
-.submenu-eresnuevoa { width:100%;display:inline-block; }
-.submenu-eresnuevoa ul { padding:0;margin:0;margin-top:10px; }
-.submenu-eresnuevoa ul li { list-style:none;float:left;display:inline-block;margin:0;padding:0; }
-.submenu-eresnuevoa ul li a { background:transparent;margin-right:-1px;padding:2px 8px;display:inline-block;color:#000; }
-.submenu-eresnuevoa ul li a:hover, .submenu-eresnuevoa ul li a:focus { text-decoration:none;color:#000;background-color:rgba(0,0,0,0.2) }
-.submenu-eresnuevoa ul li a.active { border-bottom:2px solid #000; }
-
 /* eres nuevo/a */
-.quienesquien .item {	width: 100%;display: inline-block;margin-top:7px; }
-.quienesquien img { width:22%;float:left; }
-.quienesquien .txt { width:73%;float:right; }
-.quienesquien .txt h3 { margin-bottom:7px; }
-.quienesquien .txt p { margin-top:5px;margin-bottom:0;font-size:16px;line-height:20px; }
+.quienesquien .card { width: 100%;display: inline-block;margin-bottom:7px; }
+.equipo img { width:100px;position:relative;float:left; }
+.equipo .txt { width:100%;margin-left:-100px;padding-left:120px;float:left; }
+.equipo .txt h3 { margin-bottom:7px; }
+.equipo .txt p { margin-top:5px;margin-bottom:0;font-size:16px;line-height:20px; }
 
-.signos .item {	width: 100%;display: inline-block; }
-.signos img { width:28%;float:left; }
-.signos .txt { width:65%;float:right;text-align:left; }
+.signos img { width:90px;float:left; }
+.signos .txt { width:100%;float:left;text-align:left;margin-top:15px;margin-left:-100px;padding-left:120px; }
 .signos h4 { margin-top:0;margin-bottom:10px; }
-.signos ul { margin:0;padding:0;width:100%;display:inline-block;margin-bottom:20px; }
+.signos ul { margin:0;padding:0;width:100%;display:inline-block;margin-bottom:0px; }
 .signos ul li { list-style:none;margin:0;padding:5px 0;border-top:1px solid #dadada;border-bottom:1px solid #dadada;margin-top:-1px;width:100%; }
 
 .organigrama { background-color:#fff;border-radius:20px;padding:20px;position:relative; }
@@ -44,18 +36,27 @@
 .organigrama .uc-tab-body { width:100%;border-radius:0;padding:0px; }
 
 /* protocolos */
-.tit-protocolos { width:100%;display:inline-block;margin-bottom:20px;background-color:#fff;padding:20px;border-radius:20px; }
+.protocolos { width:100%;display:inline-block;margin-bottom:20px;background-color:#fff;padding:20px;border-radius:20px; }
 .menu-protocolos a.uc-btn { display:flex; }
 .menu-protocolos a img { width:90px;margin-right:15px;float:left; }
 .menu-protocolos a p { float:left;margin-bottom:0; }
 .menu-protocolos a i { background-image:url(../img/icon_abajo.png);background-repeat:no-repeat;background-position:center;min-width:60px;height:60px;display:block;float:right;background-size:30px;border-radius:30px;background-color:#849ed6;border:4px solid #849ed6;margin-left:15px;margin-top:15px; }
 .menu-protocolos a:hover { background-color:#849ed6 !important;border-color:#849ed6;color:#fff; }
 .menu-protocolos a:hover i { background-color:transparent;border:4px solid #fff; }
-.protocolos { width:100%;float:left;display:inline-block;border-bottom:1px solid #dadada;padding:10px 0; }
-.protocolos .img { width:100px;float:left; }
-.protocolos .txt { width:100%;float:left;margin-left:-100px;padding-left:120px; }
 
 /* productos */
-.productos { width:100%;display:inline-block;margin-bottom:20px;background-color:#fff;padding:20px;border-radius:20px; }
-.productos video { width:100%;height:320px; }
-.productos h4 { margin-top:20px;padding-bottom:10px; }
+.productos .card { margin-bottom:14px; }
+.productos .uc-tabpanel { margin-top:20px;width:100%; }
+.productos .uc-vertical-tabs { width:20%;float:left; }
+.productos .uc-vertical-tabs .uc-vertical-tabs_item-link, .productos .uc-vertical-tabs .uc-vertical-tabs_item-button { padding:10px; }
+.productos .uc-vertical-tabs .uc-vertical-tabs_item-link.active, .productos .uc-vertical-tabs .uc-vertical-tabs_item-button.active { border-left:5px solid #5379BC; }
+.productos .uc-tab-body { width:80%;float:right;background-color:#fff;border-radius:0 20px 20px 20px;padding:30px; }
+.productos .uc-tab-body .lista-item { width:104%;margin-left:-2%;display:inline-block; }
+.productos .uc-tab-body .lista-item .item { width:47%;margin:10px 1.5%;float:left;display:inline-block;border-radius:20px;box-shadow:0 0 5px rgba(0,0,0,0.2);overflow:hidden; }
+.productos .uc-tab-body .lista-item .item a.micrositio { width:100%;height:200px;background-position:center;background-size:cover;display:inline-block; }
+.productos .uc-tab-body .lista-item .item a.micrositio .hover { display:inline-block;background-color:rgba(83,121,188,0.8);color:#fff;text-align:center;width:100%;height:200px;padding-top:92px;opacity:0;transition:all ease .5s;-webkit-transition:all ease .5s;-moz-transition:all ease .5s;cursor:pointer !important; }
+.productos .uc-tab-body .lista-item .item a:hover.micrositio .hover,
+.productos .uc-tab-body .lista-item .item a:focus.micrositio .hover,
+.productos .uc-tab-body .lista-item .item a:active.micrositio .hover { opacity:1; }
+.productos .uc-tab-body .lista-item .item .txt { padding:15px; }
+.productos video, .productos iframe { width:100%;height:290px; }
