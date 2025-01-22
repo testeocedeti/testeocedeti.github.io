@@ -45,18 +45,18 @@
 .menu-protocolos a:hover i { background-color:transparent;border:4px solid #fff; }
 
 /* productos */
+.productos h3 { margin-bottom:15px; }
 .productos .card { margin-bottom:14px; }
-.productos .uc-tabpanel { margin-top:20px;width:100%; }
-.productos .uc-vertical-tabs { width:20%;float:left; }
-.productos .uc-vertical-tabs .uc-vertical-tabs_item-link, .productos .uc-vertical-tabs .uc-vertical-tabs_item-button { padding:10px; }
-.productos .uc-vertical-tabs .uc-vertical-tabs_item-link.active, .productos .uc-vertical-tabs .uc-vertical-tabs_item-button.active { border-left:5px solid #5379BC; }
-.productos .uc-tab-body { width:80%;float:right;background-color:#fff;border-radius:0 20px 20px 20px;padding:30px; }
-.productos .uc-tab-body .lista-item { width:104%;margin-left:-2%;display:inline-block; }
-.productos .uc-tab-body .lista-item .item { width:47%;margin:10px 1.5%;float:left;display:inline-block;border-radius:20px;box-shadow:0 0 5px rgba(0,0,0,0.2);overflow:hidden; }
-.productos .uc-tab-body .lista-item .item a.micrositio { width:100%;height:200px;background-position:center;background-size:cover;display:inline-block; }
-.productos .uc-tab-body .lista-item .item a.micrositio .hover { display:inline-block;background-color:rgba(83,121,188,0.8);color:#fff;text-align:center;width:100%;height:200px;padding-top:92px;opacity:0;transition:all ease .5s;-webkit-transition:all ease .5s;-moz-transition:all ease .5s;cursor:pointer !important; }
-.productos .uc-tab-body .lista-item .item a:hover.micrositio .hover,
-.productos .uc-tab-body .lista-item .item a:focus.micrositio .hover,
-.productos .uc-tab-body .lista-item .item a:active.micrositio .hover { opacity:1; }
-.productos .uc-tab-body .lista-item .item .txt { padding:15px; }
-.productos video, .productos iframe { width:100%;height:290px; }
+.productos .item { width:100%;margin:10px 0;display:inline-block;border-radius:20px;box-shadow:0 0 5px rgba(0,0,0,0.2);overflow:hidden; }
+
+.productos video, .productos iframe { width:100%;height:400px; }
+.productos .tecnologias .item .txt { padding:5px 15px 0 15px; }
+
+.productos .lista-micrositios .item a.micrositio { width:100%;height:210px;background-position:center;background-size:cover;display:inline-block; }
+.productos .lista-micrositios .item a.micrositio .hover { display:inline-block;background-color:rgba(83,121,188,0.8);color:#fff;text-align:center;width:100%;height:210px;padding-top:92px;opacity:0;transition:all ease .5s;-webkit-transition:all ease .5s;-moz-transition:all ease .5s;cursor:pointer !important; }
+.productos .lista-micrositios .item a:hover.micrositio .hover,
+.productos .lista-micrositios .item a:focus.micrositio .hover,
+.productos .lista-micrositios .item a:active.micrositio .hover { opacity:1; }
+.productos .lista-micrositios .item .txt { padding:15px; }
+.productos .lista-micrositios .item .txt a { background-color:#b5c5e6;padding:7px 10px;border-radius:16px;color:#000;margin-bottom:10px;display:inline-block; }
+.productos .lista-micrositios .item .txt a:hover, .productos .lista-micrositios .item .txt a:focus { background-color:#5379BC;color:#fff;text-decoration:none; }

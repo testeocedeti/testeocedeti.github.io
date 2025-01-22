@@ -10,12 +10,18 @@
 	.organigrama .uc-vertical-tabs .uc-vertical-tabs_item-link.web { width:145px;height:82px;margin-left:25px;margin-top:-20px;}
 	.organigrama .uc-vertical-tabs .uc-vertical-tabs_item-link.ec { width:130px;height:82px;margin-left:15px;margin-top:-20px;}
 
+	.productos video, .productos iframe { height:280px; }
+
 	/* Boletín */
-	.boletin-editorial .img { width:40%; }
-	.boletin-editorial .txt { width:60%; }
+	.boletin-editorial .img, .boletin-cont-item .img { width:40%; }
+	.boletin-editorial .txt, .boletin-cont-item .txt { width:60%; }
 	.menu-boletin .img img { width:270px; }
 	.menu-boletin h3 small { font-size:17px; }
 	.menu-boletin ul li { width:124%; }
+
+	.boletin-cont-negro .tit { background-size:100%;height:250px;padding: 80px 0;width: calc(100% + 72px);margin-left: -36px; }
+	.boletin-cont-negro .tit h2 { font-size:40px; }
+	.boletin-cont-negro .tit h2 small { font-size:21px; }
 
 	/* Recursos */
     .versiones .col-lg-10 { flex: 0 0 78.3%;max-width: 78.3%; }
@@ -42,8 +48,9 @@
 	.uc-navbar .container { max-width:100%; }
 	.uc-navbar_mobile { background:#fff;display:inline-block;width:100%; }
 
-	.logo-menu-cel { width:230px;padding:10px; }
-	.uc-navbar .col-lg-3 img { display:none; }
+	.uc-navbar .container .col-lg-3 { width:210px; }
+	.uc-navbar .container .col-lg-9 { width:calc(100% - 240px);float:right;padding:0;margin-left:30px; }
+	.logo-menu-cel { width:210px;padding:0; }
 
 	.uc-navbar_mobile-content[data-open='false'] { display:none; }
 	.uc-navbar_mobile-content[data-open='true'] { position:absolute;height:auto !important;display: inline-block;width:200px;top:72px;overflow: visible;right:0%; }
@@ -73,7 +80,25 @@
 
 	.uc-card.card-bg--gray.card-radius--none.mb-32 { margin-bottom:0; }
 
-	/* Boletín */
+	.productos video, .productos iframe { height:400px; }
+	.productos .lista-micrositios .item a.micrositio, .productos .lista-micrositios .item a.micrositio .hover { height:320px; }
+
+	/* Boletín cabecera */
+	.boletin-head { width:calc(100% - 100px) }
+	.logo-cedetitv { width:100%;float:right;margin-top:10px;margin-bottom:0px; }
+	.logo-cedetitv p { display:none; }
+	.logo-cedetitv a { width:160px;float:right;padding:0px 10px; }
+	.logo-cedetitv img { width:130px;margin-top:-20px; }
+
+	.boletin-menu .uc-dropdown { z-index:999999; }
+
+	.boletin-menu { background:transparent;border-radius:0px;padding-bottom:0px;margin-bottom:10px;width:100px;display:inline-block;float:right;margin-top:-100px; }
+	.boletin-menu .dropbtn { width:48px;height:48px;display:inline-block;position: relative;right:auto;float:right;bottom:auto;padding:0px;background-image: url(../img/menu-boletin-icon.png);background-size:48px;box-shadow:0 0 12px rgba(0,0,0,0.1); }
+	.boletin-menu button:hover.dropbtn, .boletin-menu button:active.dropbtn { background-color:#ed8dbe; }
+	.boletin-menu .uc-dropdown_list { display:none;width:320px;height:auto;box-shadow:0 0 12px rgba(0,0,0,0.1);bottom:auto;background:#fff;border-radius:20px; }
+	.boletin-menu .uc-dropdown_list.show { display:block;position:absolute;top:90px;right:0; }
+
+	/* Boletín cuerpo */
 	.boletin-editorial { display:inline-block !important; }
 	.boletin-editorial .img { width:106.2%;min-height:300px;margin-left: -3.1%;margin-bottom:0px;margin-top:-20px;border-radius:20px 20px 0 0; }
 	.boletin-editorial .img img { width:400px;bottom:30px;left:3%; }
@@ -83,25 +108,34 @@
 	.cont-boletin .mt-80 { margin-top:20px; }
 
 	/* Recursos */
-	.descarga-logos img { width:50%;margin-top:20px;margin-bottom:20px; }
+	.descarga-logos img { width:40%;margin-top:20px;margin-bottom:20px; }
     .versiones .col-lg-10 { flex: 0 0 85.5%;max-width: 85.5%; }
     .versiones .col-lg-2 { flex: 0 0 14.4%;max-width: 14.4%; }
+    .fuentes .col-lg-10 { flex: 0 0 80%;max-width: 80%; }
+    .fuentes .col-lg-2 { flex: 0 0 20%;max-width: 20%; }
+    .descarga-logos .fuentes img { width:100%; }
+    .descarga-logos .fuentes a.uc-btn img { margin-top:0;margin-bottom:0; }
     .descarga-plantillas .col-lg-6 { flex:0 0 70%;max-width:70%;margin-top:20px; }
     .descarga-plantillas .col-lg-6 .mb-20 { margin-bottom:10px; }
+	.recursos-plantillas .item-ppt { margin-top:20px; }
+    .manual_firma img { width:40%;float:left;margin-right:3%; }
+    .manual_firma p { width:57%;float:right; }
 }
 
 @media screen and (max-width: 767px) {
+	h2 { font-size:44px; }
 	.secciones .card { padding-left:20px; }
 	.secciones .card img { width:220px;margin-left:auto;margin-right:auto;position:relative;display:block; }
 
 	/* llegaste recién */
-	.organigrama img { width:110%;margin-left:-5%; }
-	.organigrama .uc-vertical-tabs { width:110%;margin-left:-5%;top:350px; }
+	.organigrama .cont-scroll { width:100%;display:inline-block;overflow:hidden;overflow-x:scroll; }
+	.organigrama .uc-tabpanel { width:468px; }
+	.organigrama .uc-vertical-tabs { position:relative;top:0;margin-top:-40px;height:40px; }
 
-	.organigrama .uc-vertical-tabs li:nth-child(1).uc-vertical-tabs_item { width:11%;margin-left:4%;border:1px solid #f0f; }
-	.organigrama .uc-vertical-tabs li:nth-child(2).uc-vertical-tabs_item { width:11%;margin-left:3%; }
-	.organigrama .uc-vertical-tabs li:nth-child(3).uc-vertical-tabs_item { width:19%;margin-left:6%; }
-	.organigrama .uc-vertical-tabs li:nth-child(4).uc-vertical-tabs_item { width:17.5%;margin-left: 3%; }
+	.organigrama .uc-vertical-tabs li:nth-child(1).uc-vertical-tabs_item { width:50px;margin-left:20px; }
+	.organigrama .uc-vertical-tabs li:nth-child(2).uc-vertical-tabs_item { width:60px;margin-left:18px; }
+	.organigrama .uc-vertical-tabs li:nth-child(3).uc-vertical-tabs_item { width:95px;margin-left:30px; }
+	.organigrama .uc-vertical-tabs li:nth-child(4).uc-vertical-tabs_item { width:90px;margin-left:15px; }
 	.organigrama .uc-vertical-tabs li:nth-child(5).uc-vertical-tabs_item { width:15%;margin-left:2%; }
 	.organigrama .uc-vertical-tabs .uc-vertical-tabs_item-link.soporte { width:100%;height:42px;margin-left:0;}
 	.organigrama .uc-vertical-tabs .uc-vertical-tabs_item-link.servicios { width:100%;height:42px;margin-left:0px;}
@@ -109,67 +143,140 @@
 	.organigrama .uc-vertical-tabs .uc-vertical-tabs_item-link.web { width:100%;height:57px;margin-left:0px;margin-top:-15px;}
 	.organigrama .uc-vertical-tabs .uc-vertical-tabs_item-link.ec { width:100%;height:57px;margin-left:0px;margin-top:-15px;}
 
+	.productos video, .productos iframe { height:240px; }
+	.productos .lista-micrositios .item a.micrositio, .productos .lista-micrositios .item a.micrositio .hover { height:210px; }
+
 	/* Boletín */
-	.boletin-editorial .img { width:108.6%;margin-left: -4.3%; }
-	.boletin-editorial .img img { width:360px; }
+	.boletin-head .logo-cedetianos { padding-top:0; }
+
 	.menu-boletin ul li { width:108.5%; }
 	.boletin-item { display:inline-block !important; }
 	.boletin-item .img { width:100%;min-height:220px;border-radius:20px 20px 0 0 }
 	.boletin-item .img img { float:left;margin-top:100px;margin-left:-20px;margin-right:auto; }
 	.boletin-item .txt { width:100%; }
 
+	.boletin-portada .card, .boletin-cont-editorial .card, .boletin-cont-item .card { display:inline-block !important; }
+	.boletin-portada .card .img, .boletin-cont-editorial .card .img { width: calc(100% + 40px);min-height:240px;margin-left:-20px;margin-bottom:0px;margin-top:-20px;border-radius:20px 20px 0 0;background-size:cover;background-position:center;position:relative; }
+	.boletin-cont-item .card .img { width: 100%;min-height:240px;margin-left:0px;margin-bottom:0px;margin-top:-10px;border-radius:20px 20px 0 0;background-size:cover;background-position:center;position:relative; }
+	.boletin-portada .card .txt, .boletin-cont-editorial .card .txt, .boletin-cont-item .card .txt { width:100%; }
+
+	.boletin-cont-cedetitv .item { width:48%;margin-left:1%;margin-right:1%; }
+	.boletin-cont-cedetitv .item iframe { width:100%;height:420px; }
+
+	.boletin-cont-negro .tit { background-size:133%; }
+
 	/* Recursos */
-	.descarga-logos img { width:300px; }
+	.descarga-logos img { width:210px; }
     .versiones .col-lg-10 { flex: 0 0 100%;max-width: 100%; }
     .versiones .col-lg-2 img { width:80px;margin-top:15px;margin-bottom:15px; }
+    .fuentes .col-lg-10 { flex: 0 0 74%;max-width: 74%; }
+    .fuentes .col-lg-2 { flex: 0 0 26%;max-width: 26%; }
+    .manual_firma img { width:240px;float:left;margin-right:10%; }
+    .manual_firma p { width:100%;float:right; }
 }
 
 @media screen and (max-width: 575px) {
-	/* Llegaste recien */
-	.organigrama .uc-vertical-tabs li:nth-child(4).uc-vertical-tabs_item { margin-left: 2%; }
-	.organigrama .uc-vertical-tabs li:nth-child(5).uc-vertical-tabs_item { margin-left:1.5%; }
-	.organigrama .uc-vertical-tabs .uc-vertical-tabs_item-link.soporte { width:100%;height:37px;margin-left:0;}
-	.organigrama .uc-vertical-tabs .uc-vertical-tabs_item-link.servicios { width:100%;height:37px;margin-left:0px;}
-	.organigrama .uc-vertical-tabs .uc-vertical-tabs_item-link.id { width:100%;height:52px;margin-left:0px;margin-top:-15px;}
-	.organigrama .uc-vertical-tabs .uc-vertical-tabs_item-link.web { width:100%;height:52px;margin-left:0px;margin-top:-15px;}
-	.organigrama .uc-vertical-tabs .uc-vertical-tabs_item-link.ec { width:100%;height:52px;margin-left:0px;margin-top:-15px;}
+	.uc-navbar .container .col-lg-9 { width:100%;margin-left:0px; }
+	h2 { font-size:40px; }
 
+	/* Home */
+	.card.holi { display:none; }
+	.secciones .card img { width:76px;margin-left:0;margin-right:7px;position:absolute;display:block;right:15px;top:5px; }
+	.secciones .card .nota { display:none; }
+
+	/* llegaste recién */
+	.menu-protocolos a img { width:64px;margin-right:10px;float:left; }
+	.menu-protocolos a p { float:left;margin-bottom:0;width:calc(100% - 128px); }
+	.menu-protocolos a i { min-width:44px;height:44px;background-size:24px;margin-left:10px;margin-top:0px; }
+
+	.productos video, .productos iframe { height:210px; }
+	.productos .lista-micrositios .item a.micrositio, .productos .lista-micrositios .item a.micrositio .hover { height:180px; }
 
 	/* Boletín */
-	.boletin-editorial h2 small { font-size:37%; }
-	.boletin-editorial .img { background-size:130%;width:110%;margin-left:-5%; }
-	.boletin-editorial .img img { width:320px; }
-	img.logo-cedetianos { width:360px; }
-	.boletin-item .img img { margin-left:10px; }
+	.boletin-head .logo-cedetitv { margin-top:25px;margin-right:0px;margin-bottom:-65px; }
+	.boletin-cont-fotiwis .container { padding:0px; }
+	.boletin-cont-item .card .container { padding:20px; }
+	.contenido .boletin-cont-negro .card { padding:20px 0; }
+	.recursos-logos .card, .recursos-plantillas .versiones .card { padding:20px 0; }
+	.contenido .boletin-cont-negro img { width:calc(100% + 32px);margin-left:-16px; }
+	.boletin-cont-cedetitv .item iframe { height:360px; }
+	.carousel-inner { width:calc(100% + 60px);margin-left:-30px; }
+	.carousel-control-prev { left:-30px; }
+	.carousel-indicators { width:100%;margin-right:0;margin-left:0; }
+	.carousel-indicators [data-bs-target] { width:14px;height:14px; }
+	.boletin-cont-negro .tit { background-size:0px;height:auto;padding:0 0 20px 0; }
+	.boletin-cont-negro .tit h2 { font-size:32px; }
+	.boletin-cont-negro .tit h2 small { font-size:18px; }
 
 	/* Recursos */
+    .fuentes .col-lg-10 { flex: 0 0 calc(100% - 120px);max-width: calc(100% - 120px);float:right; }
+    .fuentes .col-lg-2 { flex: 0 0 120px;max-width: 120px; }
     .descarga-plantillas .col-lg-6 { flex:0 0 100%;max-width:100%; }
 }
 
-@media screen and (max-width: 400px) {
-	.container { padding-left:10px;padding-right:10px; }
-	.noticias_ahora.uc-carousel .uc-primary-carousel .primary-carousel_item .primary-carousel_item-content { padding-left:10px;padding-right:10px; }
-	.noticias_ahora.uc-carousel .uc-carousel-nav { display:none; }
+@media screen and (max-width: 431px) {
+	.boletin-head .logo-cedetianos { width:290px; }
+    .fuentes .col-lg-10 { flex: 0 0 100%;max-width: 100%;float:none; }
+    .fuentes .col-lg-2 { flex: 0 0 120px;max-width: 120px; }
+    .manual_firma img { width:218px;margin-right:0; }
+}
 
-	.uc-navbar_mobile-content[data-open='true'] { width:160px; }
-	.uc-navbar .uc-navbar_nav .nav-item ul { left:-160px; }
+@media screen and (max-width: 400px) {
+	h2 { font-size:32px; }
+	h2 small { font-size:16px;line-height:1; }
+	#home { padding-bottom:120px;padding-top:50px; }
+	#quienesquien, #organigrama, #productos, #protocolos, #boletin, #recursos { padding-top:50px;padding-bottom:80px; }
+	.boletin-head .tit-cedetitv img { width:180px;margin-top:0px; }
+	.boletin-menu { margin-top:-92px; }
+
+	.dropbtn { right:10px;bottom:auto;top:5px;box-shadow:none;width:64px;height:64px;background-size:58px; }
+	.uc-dropdown_list { top:74px;bottom:auto;width:320px;height:400px;right:0;box-shadow:0 0 12px rgba(0,0,0,0.1) }
+	.uc-dropdown_list iframe { height:345px; }
+
+	.uc-navbar { position:fixed;padding:10px 0;top:0;z-index:9999999; }
+	.uc-navbar .col-lg-3 a { width:100%; }
+	.uc-navbar .col-lg-3 a img { margin:0 auto;padding-left:0; }
+	.uc-navbar .uc-navbar_nav { width:100%;height:90px;position:fixed;bottom:0;left:0;background:#fff;z-index:99999999; }
+	.uc-navbar .uc-navbar_nav li { width:25%;margin:0;padding:0; }
+	.uc-navbar .uc-navbar_nav .nav-item img { display:inline-block; }
+	.uc-navbar .uc-navbar_nav .nav-item>.uc-btn { padding:0 7%; }
+	.uc-navbar .uc-navbar_nav span { display:none; }
+
+	.uc-navbar .uc-navbar_nav .nav-item ul { width:400%;position:fixed;left:0;top:auto;bottom:88px;border-radius:0;padding:0;margin:0; }
+	.uc-navbar .uc-navbar_nav li:nth-child(2).nav-item ul { height:164px; }
+	.uc-navbar .uc-navbar_nav li:nth-child(4).nav-item ul { height:85px; }
+
+	.secciones .card p { display:none; }
+
+	.footer { padding:20px 10px;display:none; }
+	.footer p { font-size:14px;line-height:16.5px;margin-bottom:0; }
 
 	/* Llegaste recien */
-	.organigrama .uc-vertical-tabs li:nth-child(2).uc-vertical-tabs_item { margin-left:2.5%; }
-	.organigrama .uc-vertical-tabs li:nth-child(3).uc-vertical-tabs_item { width:18%; }
-	.organigrama .uc-vertical-tabs li:nth-child(4).uc-vertical-tabs_item { width:17%;margin-left: 3%; }
-	.organigrama .uc-vertical-tabs li:nth-child(5).uc-vertical-tabs_item { margin-left:1.5%; }
-	.organigrama .uc-vertical-tabs .uc-vertical-tabs_item-link.soporte { width:100%;height:30px;margin-top:-5px;}
-	.organigrama .uc-vertical-tabs .uc-vertical-tabs_item-link.servicios { width:100%;height:30px;margin-top:-5px;}
-	.organigrama .uc-vertical-tabs .uc-vertical-tabs_item-link.id { width:100%;height:42px;margin-left:0px;margin-top:-15px;}
-	.organigrama .uc-vertical-tabs .uc-vertical-tabs_item-link.web { width:100%;height:42px;margin-left:0px;margin-top:-15px;}
-	.organigrama .uc-vertical-tabs .uc-vertical-tabs_item-link.ec { width:100%;height:42px;margin-left:0px;margin-top:-15px;}
+	.menu-eresnuevoa li { font-size:16px; }
+	.equipo img { width:80px;margin:0px 0 10px 0; }
+	.equipo .txt { margin-left:0px;padding-left:0px; }
+	.signos img { width:80px;float:left; }
+	.signos .txt { margin-left:0px;padding-left:0px;width:100%; }
+
+	.menu-protocolos a { width:calc(100% + 60px);margin-left:-30px; }
+
+	.productos .item { background:#fff;width:calc(100% + 60px);margin-left:-30px; }
+	.productos video, .productos iframe { height:180px; }
+	.productos .lista-micrositios .item a.micrositio, .productos .lista-micrositios .item a.micrositio .hover { height:150px; }
 
 	/* Boletín */
-	.boletin-editorial h2 small { font-size:33%; }
-	.boletin-editorial .img { background-size:170%;min-height:220px;width:116%;margin-left:-8%; }
-	.boletin-editorial .img img { display:none; }
-	img.logo-cedetianos { width:280px; }
+	.boletin-head { width:calc(100% - 80px) }
+	.logo-cedetitv { width:100%;margin-top:25px;margin-bottom:-15px; }
+	.logo-cedetitv a { width:120px;padding-top:5px; }
+	.logo-cedetitv img { width:100px; }
+
+	.boletin-menu .uc-dropdown_list { width:290px; }
+	.boletin-menu .tit-cedetitv img { width:150px;margin-top:-10px; }
+	.boletin-menu .uc-dropdown_list.show { top:70px; }
+
+	.boletin-cont-cedetitv { width:100%;margin-left:0; }
+	.boletin-cont-cedetitv .item { width:100%;margin-left:0;margin-right:0; }
+	.boletin-cont-cedetitv .item iframe { width:100%;height:460px; }
 
 	/* Recursos */
 	.descarga-logos img { width:100%; }
